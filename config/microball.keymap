@@ -79,7 +79,7 @@
         NUM {
             bindings = <
 &kp NUMBER_6          &kp N7        &kp N8        &kp NUMBER_9   &kp N0                       &kp BACKSLASH  &mkp MB3          &mo 4              &mkp MB2  &kp PERCENT
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5     &none      &none  &kp AMPERSAND  &mkp MB1          &tog 4             &none     &kp PAGE_UP
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5     &none      &none  &kp AMPERSAND  &mkp MB1          &none              &none     &kp PAGE_UP
 &mt LEFT_SHIFT SLASH  &kp ASTERISK  &kp MINUS     &kp PLUS       &kp EQUAL  &none      &none  &kp COLON      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none     &kp PAGE_DOWN
 &kp LEFT_CONTROL      &kp LEFT_GUI  &kp LEFT_ALT  &kp BACKSPACE  &kp SPACE  &mo 2      &mo 2  &lt 3 ENTER                                                   &tog 1
             >;
@@ -98,10 +98,10 @@
 
         ARROW {
             bindings = <
-&kp Q             &kp CARET     &none         &none       &kp TAB                                            &kp ESCAPE  &kp HOME        &kp UP_ARROW    &kp END          &kp TILDE
-&kp AT_SIGN       &none         &none         &none       &kp F5        &bt BT_SEL 0         &none           &kp SLASH   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_PARENTHESIS
-&kp LEFT_SHIFT    &none         &none         &none       &none         &bt BT_SEL 1         &bt BT_CLR_ALL  &kp COLON   &kp SEMICOLON   &kp UNDERSCORE  &kp PERIOD       &kp RIGHT_PARENTHESIS
-&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp DELETE  &kp QUESTION  &kp EXCLAMATION      &kp BACKSLASH   &none                                                        &kp CAPSLOCK
+&kp Q             &kp CARET     &kp GRAVE     &none       &kp TAB                                           &kp ESCAPE  &kp HOME        &kp UP_ARROW    &kp END          &kp TILDE
+&kp AT_SIGN       &none         &none         &none       &kp F5        &none                &bt BT_SEL 0   &kp SLASH   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_PARENTHESIS
+&kp LEFT_SHIFT    &none         &none         &none       &none         &bt BT_CLR_ALL       &bt BT_SEL 1   &kp COLON   &kp SEMICOLON   &kp UNDERSCORE  &kp PERIOD       &kp RIGHT_PARENTHESIS
+&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp DELETE  &kp QUESTION  &kp EXCLAMATION      &kp BACKSLASH  &none                                                        &kp CAPSLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
@@ -110,7 +110,7 @@
         SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &tog 1  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &none   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
