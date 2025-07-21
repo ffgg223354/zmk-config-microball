@@ -109,6 +109,8 @@
 &mt LEFT_SHIFT LC(Z)  &kp LC(X)         &kp LC(C)         &kp LC(V)         &kp LC(Y)    &kp LG(D)             &kp LC(N)  &kp F6                  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(H)
 &kp LEFT_CONTROL      &kp LEFT_GUI      &kp LEFT_ALT      &kp LA(F4)        &none        &none                 &none      &none                                                                                &kp LS(LG(S))
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
         };
 
         ARROW {
