@@ -84,7 +84,7 @@
             bindings = <
 &kp MINUS          &kp W         &kp E         &kp R          &kp T                                                &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A              &kp S         &kp D         &kp F          &kp G        &none                 &none             &kp H        &kp J  &kp K      &kp L    &kp LEFT_BRACKET
-&mt2 LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &lt 3 Q               &kp AT_SIGN       &kp N        &kp M  &kp COMMA  &kp DOT  &kp RIGHT_BRACKET
+&mt2 LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &lt 3 Q               &none             &kp N        &kp M  &kp COMMA  &kp DOT  &kp RIGHT_BRACKET
 &kp LCTRL          &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 1 SPACE  &lt 2 LANGUAGE_2      &lt 2 LANGUAGE_1  &lt 3 ENTER                             &to 1
             >;
 
