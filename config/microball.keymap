@@ -48,6 +48,12 @@
             bindings = <&to 0>;
             key-positions = <37 16 28>;
         };
+
+        Ctrl_W {
+            bindings = <&kp LC(W)>;
+            key-positions = <8 9>;
+            layers = <2>;
+        };
     };
 
     macros {
